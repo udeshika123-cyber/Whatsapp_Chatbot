@@ -4,7 +4,7 @@ This project is a WhatsApp chatbot built using [NestJS](https://nestjs.com/) and
 
 ## Features
 - Receives and sends WhatsApp messages via webhook
-- Uses OpenAI GPT (e.g., gpt-3.5-turbo) to generate responses
+- Uses OpenAI GPT (e.g., gpt-4o-mini) to generate responses
 - Modular NestJS structure for easy extension
 - Configurable via environment variables or config files
 
@@ -52,7 +52,7 @@ whatsapp_bot/
    Create a `.env` file in the root directory with the following sample content:
    ```env
    WHATSAPP_API_KEY=your_whatsapp_api_key_here
-   WHATSAPP_API_VERSION=v19.0
+   WHATSAPP_API_VERSION=v22.0
    WHATSAPP_PHONE_NUMBER_ID=1234567890
    OPENAI_API_KEY=sk-your_openai_key_here
    ```
