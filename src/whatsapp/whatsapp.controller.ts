@@ -8,7 +8,7 @@ export class WhatsappController {
 
     @Get('test')
     test(){
-        return 'pasindu';
+        return 'prabhashi';
     }
 
     @Get('webhook')
